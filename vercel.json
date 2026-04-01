@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/digital-scanner", "destination": "https://next-dental-lab-scanner.vercel.app" }
+  ]
+}
