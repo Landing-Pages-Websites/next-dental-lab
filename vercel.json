@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/digital-scanner", "destination": "https://next-dental-lab-scanner.vercel.app" }
+    { "source": "/digital-scanner", "destination": "https://next-dental-lab-scanner.vercel.app" },
+    { "source": "/digital-scanner/(.*)", "destination": "https://next-dental-lab-scanner.vercel.app/$1" }
   ]
 }
